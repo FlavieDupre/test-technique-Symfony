@@ -1,0 +1,4 @@
+services:
+#    flavie_movie.example:
+#        class: Flavie\MovieBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

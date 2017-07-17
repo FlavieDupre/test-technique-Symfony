@@ -1,0 +1,7 @@
+flavie_movie_film:
+    resource: "@FlavieMovieBundle/Resources/config/routing/film.yml"
+    prefix:   /film
+
+flavie_movie_homepage:
+    path:     /
+    defaults: { _controller: FlavieMovieBundle:Default:index }

@@ -1,0 +1,20 @@
+Flavie\MovieBundle\Entity\Film:
+    type: entity
+    table: null
+    repositoryClass: Flavie\MovieBundle\Repository\FilmRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        title:
+            type: string
+            length: 255
+        abstract:
+            type: text
+        date:
+            type: datetime
+
+    lifecycleCallbacks: {  }

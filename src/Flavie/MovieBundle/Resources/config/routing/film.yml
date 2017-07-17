@@ -1,0 +1,24 @@
+film_index:
+    path:     /
+    defaults: { _controller: "FlavieMovieBundle:Film:index" }
+    methods:  GET
+
+film_show:
+    path:     /{id}/show
+    defaults: { _controller: "FlavieMovieBundle:Film:show" }
+    methods:  GET
+
+film_new:
+    path:     /new
+    defaults: { _controller: "FlavieMovieBundle:Film:new" }
+    methods:  [GET, POST]
+
+film_edit:
+    path:     /{id}/edit
+    defaults: { _controller: "FlavieMovieBundle:Film:edit" }
+    methods:  [GET, POST]
+
+film_delete:
+    path:     /{id}/delete
+    defaults: { _controller: "FlavieMovieBundle:Film:delete" }
+    methods:  DELETE
